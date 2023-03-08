@@ -1,0 +1,55 @@
+.testimonials {
+    margin: 10%;
+    // @include centerblock;
+}
+
+.testimonial {
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 1.2rem 2.4rem rgba($very-dark-blackish-blue, 0.2);
+
+
+    &-img {
+        width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 50%;
+
+        &--1 {
+            border: 2px solid #A775F1;
+        }
+
+        &--4 {
+            border: 2px solid #733FC8;
+        }
+    }
+
+    &-header {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        margin-bottom: 1.6rem;
+    }
+
+    &-name {
+        margin-bottom: 4px;
+    }
+
+    &-title {
+        opacity: 0.5;
+    }
+
+    &-sub {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 1.2rem;
+    }
+
+    &-text {
+        font-size: 13px;
+        opacity: 0.7;
+
+        &--1 {
+            opacity: 0.7;
+        }
+    }
+}

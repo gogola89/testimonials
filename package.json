@@ -1,0 +1,22 @@
+{
+  "name": "testimonials-grid-section",
+  "version": "1.0.0",
+  "description": "Grid section ti practice css grid",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -w sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogola89/testimonials-grid.git"
+  },
+  "author": "George Ogola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gogola89/testimonials-grid/issues"
+  },
+  "homepage": "https://github.com/gogola89/testimonials-grid#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
